@@ -1,14 +1,13 @@
 function convertirEdad(edad) {
-    let edadNumero = edad * "1";
 
-    if (edadNumero >= 18) {
-        console.log("Eres mayor de edad. ", edadNumero);
+    if (edad >= 18) {
+        console.log("Eres mayor de edad. ", edad);
     }
     else {
-        console.log("No eres mayor de edad. ", edadNumero);
+        console.log("No eres mayor de edad. ", edad);
     }
 
 }
 
-convertirEdad("20");// Eres mayor de edad. 20
-convertirEdad("17");// No eres mayor de edad. 17
+convertirEdad(20);// Eres mayor de edad. 20
+convertirEdad(17);// No eres mayor de edad. 17
